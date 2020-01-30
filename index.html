@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Html crud with pure javascript</title>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Welcome to the trip web allication</h1>
+        <table align="center">
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div>
+                            <h2>Add Your Trip</h2>
+                        <label for="fullName">Full Name</label>
+                       <br> <input type="text" name="fullName" id="fullName" title="please fill this field" required>
+                        </div>
+                        <div>
+                        <label for="trip">Trip</label>
+                       <br> <input type="text" name="trip" id="trip" required>
+                    </div>
+                    <div class="form-action-buttons">
+                      <br>  <input type="submit"  value="Submit">
+                    </div>
+                    </form>
+                </td>
+                <td>
+                    <table class="list" id="employeeList">
+                        <h3>List</h3>
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Trip</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                    </table>
+                </td>
+               
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>

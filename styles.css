@@ -1,0 +1,73 @@
+
+body
+{
+    background: linear-gradient();
+}
+a{
+    cursor:pointer;
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 2px;
+}
+.edit
+{
+    background-color: blue;
+    height: 120px;
+}
+.delete
+{
+    background-color: crimson;
+    height:120px;
+}
+a:hover
+{
+    text-decoration:none;
+    color:red;
+
+}
+table,th,td
+{
+    border-collapse: collapse;
+    border:1px solid black;
+    padding-left: 22px;
+    width: 50%;
+    font-size: 20px;
+}
+th
+{
+    width:100%;
+}
+h1
+{
+    text-align: center;
+    background-color: aqua;
+    /* margin: 0px; */
+    margin-right: -8px;
+    margin-left: -7px;
+    box-sizing: border-box;
+}
+h2
+{
+    text-align: center;
+}
+input[type="text"]
+{
+    height:20px;
+    width:90%;
+    
+}
+
+input[type="text"]:focus
+{
+   background-color: aquamarine;
+    
+}
+input[type="submit"]
+{
+    height:30px;
+    font-size: 20px;
+}
+[title]
+{
+    background-color: aquamarine;
+}
